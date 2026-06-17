@@ -1,0 +1,24 @@
+{
+  "id": "./",
+  "name": "宅建14日間 合格トレーナー｜通常レベル",
+  "short_name": "宅建トレーナー",
+  "description": "通常レベル50問、14日間反復、50問模試、弱点分析に対応した宅建学習アプリ",
+  "lang": "ja",
+  "start_url": "./index.html?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#f4f7fb",
+  "theme_color": "#0f2b59",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {"src":"assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ],
+  "shortcuts": [
+    {"name":"今日の学習","short_name":"学習","url":"./index.html?open=study","icons":[{"src":"assets/icon-192.png","sizes":"192x192"}]},
+    {"name":"50問模試","short_name":"模試","url":"./index.html?open=mock","icons":[{"src":"assets/icon-192.png","sizes":"192x192"}]},
+    {"name":"学習効果","short_name":"効果","url":"./index.html?open=analytics","icons":[{"src":"assets/icon-192.png","sizes":"192x192"}]}
+  ]
+}
